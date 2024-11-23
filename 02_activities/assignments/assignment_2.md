@@ -10,8 +10,49 @@
 - For each visualization (good and bad):  
     - Explain (with reference to material covered up to date, along with readings and other scholarly sources, as needed) why you classified that visualization the way you did.
       ```
-      Your answer...
+      Visualization: KPI Calcs Template
 
+      Link: https://public.tableau.com/app/profile/andy.kriebel/viz/KPICalcsTemplate/Card
+
+      Why the visualization is bad?
+      
+      - Aesthetic Qualities: 
+      The visual design lacks visual hierarchy—everything is presented uniformly, making it hard for viewers to quickly determine which metrics are most important.
+      
+      - Substantive Qualities: 
+      The data is presented in isolation, without context. For example, it’s unclear how the KPIs compare to previous periods, industry benchmarks, or targets.
+      
+      The KPI metrics (e.g., percentages or trends) might be calculated or displayed without clear labels, which could mislead or confuse viewers.
+      
+      - Perceptual Qualities: 
+      The visualization does not clearly convey the message or insight the creator is trying to deliver—viewers are left to interpret the KPIs without guidance.
+      
+      Without a narrative or clear emphasis, the visualization feels static and fails to communicate a story.
+
+
+      Visualization: Complaint Customer
+
+      Link: https://public.tableau.com/app/profile/putra.gema.nusa7221/viz/complaint_customer/Dashboard1
+
+      Why the visualization is good?
+
+      - Aesthetic Qualities: 
+      The layout is clean, with sufficient spacing and alignment, which avoids overwhelming the viewer.
+      
+      The inclusion of interactive filters enhances user engagement and allows for customized exploration of the data.
+      
+      - Substantive  Qualities: 
+      
+      The data is presented with proper labels, titles, and legends, ensuring that the viewer understands the metrics being shown.
+      
+      Key patterns or trends appear to be highlighted, such as the types of customer complaints, which are central to the dashboard’s message.
+      
+      - Perceptual Qualities: 
+      
+      Interactive elements (e.g., filters or drop-down menus) guide users to explore specific insights tailored to their questions
+      
+      The charts and titles suggest a focus on improving customer satisfaction by identifying frequent complaint areas.
+      
 
 
 
@@ -21,7 +62,18 @@
       ```
     - How could this data visualization have been improved?  
       ```
-      Your answer...
+      Visualization: KPI Calcs Template
+
+      • Add Context and Visual Trends: Incorporate sparklines, bar charts, or line graphs within the cards to show trends over time and compare metrics against benchmarks or targets, providing viewers with actionable insights.
+
+      • Enhance Visual Hierarchy: Use consistent alignment, spacing, and color coding to emphasize key metrics, such as highlighting positive trends in green and negative trends in red, while reducing clutter to improve readability and focus.
+
+
+      Visualization: Complaint Customer
+      
+      • Add Contextual Annotations: Include insights or annotations within the charts to summarize key takeaways (for example "This category accounts for 60% of complaints") to ensure viewers quickly grasp the most important findings without needing to explore too deeply.
+      
+      • Enhance Chart Diversity: If the visualization primarily relies on bar or pie charts, consider incorporating other visual elements, such as heatmaps or line graphs. This can make the story more engaging and comprehensive.
 
 
 
