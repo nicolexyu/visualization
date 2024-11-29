@@ -7,23 +7,183 @@
 - Choose a dataset of interest from the [City of Toronto’s Open Data Portal](https://www.toronto.ca/city-government/data-research-maps/open-data/) or [Ontario’s Open Data Catalogue](https://data.ontario.ca/). 
 - Using Python and one other data visualization software (Excel or free alternative, Tableau Public, any other tool you prefer), create two distinct visualizations from your dataset of choice.  
 - For each visualization, describe and justify: 
+
+    Note: Please refer to the folder for detail information. 
+    
+    [Short-Term Rentals Analysis](https://github.com/nicolexyu/projects/tree/main/Short-Term%20Rentals%20Analysis)
+
+    [Project Overview](https://github.com/nicolexyu/projects/blob/main/Short-Term%20Rentals%20Analysis/Project%20Overview.md)
+    
+    [Data folder](https://github.com/nicolexyu/projects/tree/main/Short-Term%20Rentals%20Analysis/data)
+
+    [Python Code](https://github.com/nicolexyu/projects/blob/main/Short-Term%20Rentals%20Analysis/Python%20code.ipynb)
+
+
+    > Python
+
     > What software did you use to create your data visualization?
 
+    The visualizations were created using Python, specifically using libraries such as Matplotlib and Seaborn.
+
     > Who is your intended audience? 
+
+    The intended audience includes:
+
+    - Researchers and analysts studying the distribution and types of short-term rentals.
+    - Community members seeking transparency in rental property statistics.
+    - Real estate professionals interested in market trends for short-term rentals.
     
     > What information or message are you trying to convey with your visualization? 
+    The data visualizations highlight:
+
+    - The distribution of property types used for short-term rentals.
+    - Wards with the highest and lowest numbers of short-term rental properties.
+    - How property types are distributed across wards.
     
+    These insights reveal key trends in rental housing and provide a basis for understanding geographic and property-type preferences.
+
     > What design principles (substantive, perceptual, aesthetic) did you consider when making your visualization? How did you apply these principles? With what elements of your plots? 
+
+    Substantive Principles:
+    Focused on clarity and relevance, ensuring the charts answer specific questions about the dataset.
+
+    Perceptual Principles:
+    Used bar charts for categorical comparisons (e.g., property types, wards), which are easily understood by viewers.
+
+    Aesthetic Principles:
+    Ensured charts have a clean layout with readable axis labels and titles, such as “Count of Short-Term Rental Properties by Type.”
     
     > How did you ensure that your data visualizations are reproducible? If the tool you used to make your data visualization is not reproducible, how will this impact your data visualization? 
+
+    Python: Scripts for data cleaning, analysis, and visualization are documented and can be reused by others with the dataset.
     
     > How did you ensure that your data visualization is accessible?  
+
+    Python Visualizations: Titles, axis labels, and annotations make the data easily interpretable. A high-contrast color palette was used for readability.
     
     > Who are the individuals and communities who might be impacted by your visualization?  
+
+    Positively Impacted:
+    - Policy-makers and planners can use the insights for housing regulations and planning.
+    - Community members gain transparency in local housing trends.
+
+    Potentially Negatively Impacted:
+    - Property owners in wards with high concentrations of rentals may face increased scrutiny or regulation.
     
     > How did you choose which features of your chosen dataset to include or exclude from your visualization? 
+
+    Included Features:
+
+    - Property Type: Central to understanding the distribution of short-term rentals based on the type of property.
+    - Ward Name and Ward Number: Essential for geographic analysis of property distributions across the city.
+    - Counts: Used to show the frequency of properties for each category, providing quantitative insights.
+
+    Excluded Features:
+
+    - Unit Numbers: These were excluded because they were not critical to understanding rental distribution trends.
     
     > What ‘underwater labour’ contributed to your final data visualization product?
+
+    Data Cleaning: 
+
+    Unit Column: Missing values in the unit column were left as is since the absence of unit numbers does not affect the analysis of property types or ward distributions.
+
+    Ward Number and Ward Name Columns: Rows with missing values in these critical columns were dropped to maintain data quality for analyses and visualizations involving geographic or ward-based attributes. Since there were only 4 missing values, this represents a negligible portion of the dataset and does not impact the overall analysis.
+
+    Data Transformation:
+
+    Aggregated the data by ward and property type to generate meaningful insights for visualizations.
+
+    Visualization Design:
+
+    Iterated on chart types and layouts to ensure that the plots effectively communicated the key insights.
+
+
+
+
+    > Tableau
+    
+    > What software did you use to create your data visualization?
+
+    Tableau Public was utilized to create the interactive dashboard available at the link: 
+    https://public.tableau.com/app/profile/n.y8309/viz/DashboardShort-TermRental/DashboardShort-TermRental?publish=yes
+
+    > Who is your intended audience? 
+
+    - Researchers and analysts studying the distribution and types of short-term rentals.
+    - Community members seeking transparency in rental property statistics.
+    - Real estate professionals interested in market trends for short-term rentals.
+
+    > What information or message are you trying to convey with your visualization? 
+
+    - The distribution of property types used for short-term rentals.
+    - Wards with the highest and lowest numbers of short-term rental properties.
+    - How property types are distributed across wards.
+    
+    These insights reveal key trends in rental housing and provide a basis for understanding geographic and property-type preferences.
+
+    > What design principles (substantive, perceptual, aesthetic) did you consider when making your visualization? How did you apply these principles? With what elements of your plots? 
+
+    Substantive Principles:
+    Focused on key dimensions (e.g., ward, property type) to maintain relevance and align with stakeholder needs.
+
+    Perceptual Principles:
+    Interactive filters and tooltips make complex data accessible to diverse audiences.
+
+    Aesthetic Principles:
+    Utilized a professional color scheme that aligns with Tableau's default palettes but is adjusted for accessibility (e.g., avoiding colors that are hard to differentiate for color-blind users).
+    
+    > How did you ensure that your data visualizations are reproducible? If the tool you used to make your data visualization is not reproducible, how will this impact your data visualization? 
+
+    Tableau: The dashboard is published on Tableau Public, ensuring accessibility and transparency, though it is less directly reproducible compared to Python code.
+    
+    > How did you ensure that your data visualization is accessible?  
+
+    Tableau Dashboard: Interactive features allow users to explore the data by property type and ward, accommodating varying interests and analytical needs.
+    
+    > Who are the individuals and communities who might be impacted by your visualization?  
+
+    Positively Impacted:
+    - Policy-makers and planners can use the insights for housing regulations and planning.
+    - Community members gain transparency in local housing trends.
+
+    Potentially Negatively Impacted:
+    - Property owners in wards with high concentrations of rentals may face increased scrutiny or regulation.
+    
+    > How did you choose which features of your chosen dataset to include or exclude from your visualization? 
+
+    Included Features:
+
+    - Property Type and Ward: Key variables that provide a detailed understanding of the geographic and categorical distribution of short-term rentals.
+    - Filters: Added to enable users to explore the data dynamically.
+
+    Excluded Features:
+
+    - Unit Numbers: Excluded for the same reasons as in Python, as they were not relevant to the visualizations or analysis.
+    
+    > What ‘underwater labour’ contributed to your final data visualization product?
+
+    Data Preparation for Tableau:
+
+    Exported a cleaned and aggregated dataset compatible with Tableau, ensuring proper column formats and no missing critical values.
+
+    Dashboard Design:
+
+    Experimented with multiple layouts to ensure the visualizations were user-friendly and intuitive.
+    
+    Set up filters for interactivity and tested their functionality to ensure no errors.
+
+    Color and Accessibility Optimization:
+
+    Customized Tableau’s color palettes for readability and accessibility, accounting for potential color blindness.
+
+    Testing and Iteration:
+
+    Tested the dashboard in Tableau Public to ensure performance and functionality for public viewing.
+
+
+
+
 
 - This assignment is intentionally open-ended - you are free to create static or dynamic data visualizations, maps, or whatever form of data visualization you think best communicates your information to your audience of choice! 
 - Total word count should not exceed **(as a maximum) 1000 words** 
